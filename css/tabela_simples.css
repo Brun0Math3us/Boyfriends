@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(211, 43, 197);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:blueviolet;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 3px black;
+}
+
+thead{
+    background-color: rgb(211, 43, 197);
+}
+
+.personagens{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(211, 43, 197);
+    border-width: 8px;
+    border-radius: 7px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border-collapse: collapse;
+    flex-direction: column;
+}
+
+td, tr{
+    padding: 10px;
+    font-size: 25px;
+    border-color: rgb(211, 43, 197);
+}
+
+th, thead{
+    font-size: 35px;
+    padding: 10px;
+    text-shadow: 3px 4px black;
+    color: white;
+    border-color: rgb(211, 43, 197);
+}
+
+.alternada{
+    font-size: 35px;
+    background-color: rgb(211, 43, 197);
+    padding-left: 50%;
+    padding-right: 50%;
+    margin: 70px;
+}
+
